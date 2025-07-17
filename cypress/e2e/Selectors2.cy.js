@@ -1,4 +1,4 @@
-///reference type="cypress"/
+/// <reference types="cypress" />
 describe('cypress selectors', () => {
     it('Select element by text', () => {
         cy.visit("/")
@@ -21,5 +21,7 @@ describe('cypress selectors', () => {
         cy.get("li").filter(".authorization-link")
         cy.get("li").not(".authorization-link")
         cy.contains("Subscribe").parent()
+
     });
+    
 });

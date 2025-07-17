@@ -1,4 +1,4 @@
-///reference type="cypress"/
+/// <reference types="cypress" />
 describe('check the functionalitys(Selectors) for home page', () => {
     it('examples on selectors', () => {
         cy.visit("/")

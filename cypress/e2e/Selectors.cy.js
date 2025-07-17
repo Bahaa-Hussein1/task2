@@ -1,4 +1,4 @@
-///reference type="cypress"/
+/// <reference types="cypress" />
 describe('selectors lesson', () => {
     it('validate that the logo is exist in the header page home', () => {
         cy.visit("/")

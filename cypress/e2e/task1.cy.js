@@ -1,4 +1,4 @@
-///reference type="cypress"/
+/// <reference types="cypress" />
 describe('check functionality', () => {
    it('check functionalitys for home page', () => {
     cy.visit("https://demo.productionready.io/#/register")
